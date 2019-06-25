@@ -25,6 +25,8 @@ public class csvOperation {
 		SQLContext sqlContext = SQLContext.getOrCreate(sc);
 		SparkSession session = SparkSession.builder().appName("Test").config(conf).getOrCreate();
 
+		//Change input and output path mention below according to your file location
+		
 		String file1 = "F:\\deloitte_test\\data.csv";
 		String outputLocation = "F:\\deloitte_test\\result";
 
